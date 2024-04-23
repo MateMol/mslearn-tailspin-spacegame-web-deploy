@@ -1,8 +1,8 @@
 trigger:
 - '*'
 
-pool:
-  vmImage: 'Windows-Agent'
+pool: 'my-personal-computer'
+  vmImage: 'ubuntu-20.04'
   demands:
   - npm
 
