@@ -2,7 +2,6 @@ trigger:
 - '*'
 
 pool: 
-  name: 'my-personal-computer'
   vmImage: 'ubuntu-20.04'
   demands:
   - npm
